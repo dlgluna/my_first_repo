@@ -8,13 +8,17 @@ body {
 .container {
     max-width: 50%;
     margin: 0 auto;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: left;
     border: 1px solid #ddd
 }
 
 .container h1 {
     font-size: 20px;
+}
+
+.post {
+    padding: 1rem;
 }
 
 .cabecera {
@@ -30,4 +34,12 @@ body {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+}
+
+.footer {
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 0.003rem;
+    font-weight: bold;
 }
